@@ -2,6 +2,8 @@
 
 ## 📌 Overview
 The **Transmission Logger** is a comprehensive C++ desktop application built to log, manage, and visually playback radio transmissions in Morse Code. Developed as a capstone project for the Object-Oriented Programming course, it evolves from a robust Command Line Interface (CLI) into a fully interactive Graphical User Interface (GUI) powered by the Qt framework.
+![Transmission Logger GUI](image1.png)
+![Transmission Logger GUI](image2.png)
 
 ## 🚀 Key Features & Architecture
 * **Strict Layered Architecture:** The codebase is rigorously divided into Domain, Repository, Service, and Presentation (UI) layers, ensuring a pristine separation of concerns.
