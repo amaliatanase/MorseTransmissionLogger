@@ -6,27 +6,31 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
-# Căutăm pachetul Qt6
 find_package(Qt6 COMPONENTS
         Core
         Gui
         Widgets
         REQUIRED)
 
-# Am scos main.cpp-ul duplicat (dacă fișierul tău se numește main_2.cpp, schimbă aici)
 add_executable(Seminar7_1012
         main.cpp
-        Action.cpp
-        RepositoryFactory.cpp
-        Repository.cpp
-        RepositoryFile.cpp
-        Service.cpp
-        Transmission.cpp
-        UI.cpp
-        TransmissionsGUI.cpp
+        AppCore/Action.cpp 
+        AppCore/RepositoryFactory.cpp 
+        AppCore/Repository.cpp 
+        AppCore/RepositoryFile.cpp 
+        AppCore/Service.cpp 
+        AppCore/Transmission.cpp 
+        AppCore/UI.cpp 
+        AppCore/TransmissionsGUI.cpp
+        AudioEngine/AcousticWave.cpp
+        AudioEngine/DynamicArray.cpp
+        AudioEngine/MorseEncoder.cpp
+        AudioEngine/SignalProcessor.cpp
+        AudioEngine/WaveOutput.cpp
 )
 
-# Am adăugat prefixul Qt6:: pentru a le recunoaște corect
+target_include_directories(Seminar7_1012 PRIVATE AppCore AudioEngine)
+
 target_link_libraries(Seminar7_1012 PRIVATE
         Qt6::Core
         Qt6::Gui
