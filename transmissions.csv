@@ -1,0 +1,6 @@
+1,AlphaStation,CommandCenter,System diagnostics complete,LOW
+2,RelayNode7,BaseOmega,Requesting immediate backup,IMPORTANT
+3,SecurityPost,MainGate,Unauthorized access attempt detected,IMPORTANT
+4,MedicalBay,CentralHQ,Patient stabilized after procedure,IMPORTANT
+5,Explorer09,ResearchLab,New mineral sample collected,LOW
+6,Engineering,PowerCore,Reactor maintenance completed,NORMAL

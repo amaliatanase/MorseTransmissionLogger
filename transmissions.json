@@ -1,0 +1,30 @@
+[
+    {
+        "content": "New mineral sample collected",
+        "id": 5,
+        "priority": "LOW",
+        "receiver": "ResearchLab",
+        "sender": "Explorer09"
+    },
+    {
+        "content": "Reactor maintenance completed",
+        "id": 3,
+        "priority": "NORMAL",
+        "receiver": "PowerCore",
+        "sender": "Engineering"
+    },
+    {
+        "content": "Patient stabilized after procedure",
+        "id": 4,
+        "priority": "IMPORTANT",
+        "receiver": "CentralHQ",
+        "sender": "MedicalBay"
+    },
+    {
+        "content": "Requesting immediate backup",
+        "id": 2,
+        "priority": "IMPORTANT",
+        "receiver": "BaseOmega",
+        "sender": "RelayNode7"
+    }
+]
