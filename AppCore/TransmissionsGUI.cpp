@@ -1,6 +1,3 @@
-//
-// Created by Anamaria Briciu on 25.05.2026.
-//
 
 #include "TransmissionsGUI.h"
 #include <QVBoxLayout>
