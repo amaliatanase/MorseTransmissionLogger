@@ -1,7 +1,3 @@
-//
-// Created by Anamaria Briciu on 04.05.2026.
-//
-
 #ifndef SEMINAR5_1012_SERVICE_H
 #define SEMINAR5_1012_SERVICE_H
 #include "Action.h"
