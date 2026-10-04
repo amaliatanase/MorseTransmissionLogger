@@ -1,7 +1,3 @@
-//
-// Created by Anamaria Briciu on 25.05.2026.
-//
-
 #ifndef SEMINAR7_1011_TRANSMISSIONSGUI_H
 #define SEMINAR7_1011_TRANSMISSIONSGUI_H
 #include <qwidget.h>
