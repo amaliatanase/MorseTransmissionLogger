@@ -1,7 +1,3 @@
-//
-// Created by Anamaria Briciu on 18.05.2026.
-//
-
 #include "RepositoryFile.h"
 #include <fstream>
 #include <QApplication>
