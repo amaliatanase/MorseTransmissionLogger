@@ -1,6 +1,3 @@
-//
-// Created by Anamaria Briciu on 04.05.2026.
-//
 
 #ifndef SEMINAR5_1012_REPOSITORY_H
 #define SEMINAR5_1012_REPOSITORY_H
