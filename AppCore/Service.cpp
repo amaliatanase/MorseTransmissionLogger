@@ -1,7 +1,3 @@
-//
-// Created by Anamaria Briciu on 04.05.2026.
-//
-
 #include "Service.h"
 
 #include <csignal>
